@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(148, 3, 3);
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    width: 20%;
+}
+
+.navbar-links{
+    float: right;
+}
+
+.navbar-links a{
+   display: inline-block;
+   position: relative;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    top: 20px;
+}
