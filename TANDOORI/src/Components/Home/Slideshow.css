@@ -1,0 +1,32 @@
+.slideshow-container {
+    position: absolute;
+    margin: 10px;
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    overflow: hidden;
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Animation for fading transitions */
+  .fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
