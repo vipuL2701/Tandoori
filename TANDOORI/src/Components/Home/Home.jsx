@@ -1,5 +1,10 @@
 import React from 'react';
+import './Home.css';
 import Slideshow from './Slideshow';
+import Pincode from './Pincode';
+import Reservation from './Reservation';
+import reserv from '../img/reserv.jpg';
+
 
 function Home() {
   const images = [
@@ -9,9 +14,12 @@ function Home() {
      ]
   return (
     <>
-    <div className='photo'>
-    <Slideshow images={images} />
-    </div>
+      <Slideshow images={images} />
+       <Pincode />
+        <Reservation />
+        
+       
+       
     </>
   )
 }

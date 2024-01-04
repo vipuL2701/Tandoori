@@ -1,0 +1,50 @@
+.book-table-container {
+    width: 100%;
+    color: rgb(207, 2, 2);
+    background-image: url('../img/reserv.jpg');
+    background-size: cover;
+    position: relative;
+    font-size: 4vh;
+  }
+  .heading{
+    justify-content: right;
+    display: flex;
+    margin-right: 200px;
+  }
+   
+.form{
+  display: flex;
+  justify-content: right;
+  margin-right: 120px;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #ca0303;
+  }
+  .in{
+    width: 400px;
+  }

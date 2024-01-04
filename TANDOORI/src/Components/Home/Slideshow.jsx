@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import './Slideshow.css'; // Import your CSS for styling
+import './Slideshow.css';
 
 const Slideshow = ({ images }) => {
   const [index, setIndex] = useState(0);
@@ -8,7 +8,7 @@ const Slideshow = ({ images }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change the interval duration (in milliseconds) as needed
+    }, 5000); 
 
     return () => clearInterval(interval); // Cleanup the interval on component unmount
   }, [images]);
@@ -16,7 +16,7 @@ const Slideshow = ({ images }) => {
   return (
     <div className="slideshow-container">
       <TransitionGroup>
-        <CSSTransition key={index} timeout={500} classNames="fade">
+        <CSSTransition key={index} timeout={100} classNames="fade">
           <img
             className="slideshow-image"
             src={images[index]}
