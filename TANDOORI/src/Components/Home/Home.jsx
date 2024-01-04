@@ -3,8 +3,7 @@ import './Home.css';
 import Slideshow from './Slideshow';
 import Pincode from './Pincode';
 import Reservation from './Reservation';
-import reserv from '../img/reserv.jpg';
-
+import Download from './Download';
 
 function Home() {
   const images = [
@@ -17,9 +16,7 @@ function Home() {
       <Slideshow images={images} />
        <Pincode />
         <Reservation />
-        
-       
-       
+        <Download />
     </>
   )
 }

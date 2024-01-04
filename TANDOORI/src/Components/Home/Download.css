@@ -1,0 +1,32 @@
+.down{
+    width: 100%;
+    background-color: rgb(142, 8, 8);
+    margin-top: 10px;
+}
+
+span{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-size: x-large;
+    top: 60px;
+    margin-left: 100px;
+}
+
+.phone{
+    width: 240px;
+    height: 280px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.and{
+    margin-left: 0px;
+}
+
+.but{
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
