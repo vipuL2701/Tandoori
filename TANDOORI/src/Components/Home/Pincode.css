@@ -5,7 +5,7 @@
     text-decoration: none;
     font-size: 25px;
     color: #eff3ea;
-    margin-top: -18px;
+    margin-top: 0px;
     }
 
 .border{
@@ -24,6 +24,10 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;;
+   }
+
+   input{
+    color: black;
    }
   
   .button1{
@@ -53,7 +57,11 @@
     }
 
     .text{
-      position: relative;
+      margin-left: 490px;
+      /* text-align: center;
+      justify-content: center;
+      text-align: center; */
+      /* position: relative; */
       animation: beat 1s infinite alternate;
       transform-origin: center;
     }
